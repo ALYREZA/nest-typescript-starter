@@ -1,5 +1,5 @@
 {
-  "name": "bitgame",
+  "name": "nest-typescript-starter",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -13,10 +13,10 @@
     "start:prod": "node dist/main"
   },
   "dependencies": {
-    "@nestjs/common": "^7.6.3",
+    "@nestjs/common": "^7.6.4",
     "@nestjs/config": "^0.6.1",
-    "@nestjs/core": "^7.6.3",
-    "@nestjs/platform-express": "^7.6.3",
+    "@nestjs/core": "^7.6.4",
+    "@nestjs/platform-express": "^7.6.4",
     "reflect-metadata": "^0.1.13",
     "rimraf":"^3.0.2",
     "rxjs": "^6.6.3"
