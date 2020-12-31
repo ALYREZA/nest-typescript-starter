@@ -9,7 +9,7 @@ export class UsersService {
 
   constructor(
     @Inject(forwardRef(() => AuthService))
-    private authService: AuthService,
+    private readonly authService: AuthService,
   ) {
     this.users = [
       {
